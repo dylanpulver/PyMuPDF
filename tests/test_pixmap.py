@@ -770,7 +770,7 @@ def test_natural():
         print(f"{pix=}")    
 
 
-def text_pixmap_transpositions():
+def test_pixmap_transpositions():
     """Test that flip_rotate() is consistent with repeated applications."""
     path = os.path.normpath(f'{__file__}/../../tests/resources/test_natural.pdf')
     doc=pymupdf.open(path)
